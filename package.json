@@ -15,7 +15,8 @@
   "author": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server"
+    "start": "nodemon server",
+    "lint": "eslint . --ext .js,.jsx"
   },
   "eslintConfig": {
     "env": {
