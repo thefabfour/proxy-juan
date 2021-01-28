@@ -27,3 +27,18 @@ body {
   --gradient: linear-gradient(to right, #E61E4D 0%, #E31C5F 50%, #D70466 100%);
   --radial: radial-gradient(circle at center, #FF385C 0%, #E61E4D 50%, #E31C5F 90%, #D70466 100%);
 }
+
+#service1 {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  align-self: flex-start;
+  top: 10rem;
+}
+
+#mods {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  height: 500rem;
+}
