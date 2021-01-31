@@ -1,0 +1,12 @@
+version: '3.1'
+
+services:
+
+  server:
+    build: ./
+    image: joxmar/fecproxy
+    volumes:
+      - ./:/app
+      - /app/node_modules
+    ports: 
+      - 80:3000
